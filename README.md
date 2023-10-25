@@ -33,3 +33,19 @@ The model evaluation section focuses on assessing the performance of predictive 
 - Building and training machine learning models.
 - Evaluating in-sample and out-of-sample model results.
 - Saving results for further analysis.
+
+## Conclusion
+
+- In the context of in-sample feature selection based on adjusted R-square, the performance of the models is evaluated.
+- Linear models, especially OLS, outperform non-linear models in terms of R-square.
+- The table provides fLoss, R-square, R-value, and correlation results for each model, offering insights into their effectiveness in predicting stock returns.
+
+This research provides a comprehensive overview of stock return prediction, from data analysis to model evaluation, with the goal of aiding researchers and analysts in understanding the intricacies of this complex field.
+
+## Acknowledgments
+
+- [Support Vector Machine - Wikipedia](https://en.wikipedia.org/wiki/Support_vector_machine)
+- [ElasticNet - scikit-learn](http://scikit-learn.org/stable/modules/generated/sklearn.linear_model.ElasticNet.html)
+- [SVR (Support Vector Regression) - scikit-learn](http://scikit-learn.org/stable/modules/generated/sklearn.svm.SVR.html)
+- [MLPRegressor - scikit-learn](http://scikit-learn.org/stable/modules/generated/sklearn.neural_network.MLPRegressor.html#sklearn.neural_network.MLPRegressor)
+- Rishi K. Narang, "Inside the Black Box-The Simple Truth About Quantitative Trading." John Wiley & Sons, Inc, 2009: 11-38.
