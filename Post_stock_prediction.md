@@ -1,3 +1,4 @@
+  ![](<./stock_prediction.jpg>)
 # Stock Return Prediction Research
 
 ## Table of Contents
@@ -20,6 +21,7 @@ Welcome to a comprehensive exploration of Stock Return Prediction Research. In t
 - **Y:** Represents the vector of stock returns.
 - **X:** Comprises an 8-column matrix, with each column denoting a distinct stock feature.
 
+
 ### Descriptive Analysis
 
 #### Y:
@@ -27,6 +29,8 @@ Welcome to a comprehensive exploration of Stock Return Prediction Research. In t
 - When considering all data, the skewness and kurtosis of Y indicate significant deviations.
 - A box plot of Y reveals the presence of outliers.
 - A fat-tail distribution approach is adopted, involving the removal of data larger than the top 0.1% and smaller than the bottom 0.1%.
+
+  ![](<./Box_plot_of_Y.jpg>)
 
 #### X:
 
