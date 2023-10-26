@@ -65,7 +65,7 @@ Welcome to a comprehensive exploration of Stock Return Prediction Research. In t
 - A moving window out-sample back-testing method is employed to evaluate model performance over various time periods.
 - This method allows for model adaptation to changing coefficients as time periods shift.
 
-![](<./Model_r_square.jpg>
+![](<./Model_r_square.jpg>)
 
 ## Conclusion
 
