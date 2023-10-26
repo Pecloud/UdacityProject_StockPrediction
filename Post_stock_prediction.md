@@ -31,6 +31,7 @@ Welcome to a comprehensive exploration of Stock Return Prediction Research. In t
 - A fat-tail distribution approach is adopted, involving the removal of data larger than the top 0.1% and smaller than the bottom 0.1%.
 
   ![](<./Box_plot_of_Y.jpg>)
+  ![](<./Y_remove_outlier.jpg>)
 
 #### X:
 
@@ -39,14 +40,17 @@ Welcome to a comprehensive exploration of Stock Return Prediction Research. In t
 - It's important to note that data rows removed from Y are also removed from X.
 - A box plot of X is used to visualize the distribution of features.
 
+![](<./Des_X.JPG>)
+
 #### Covariance Matrix:
 
 - The covariance matrix analysis indicates no significant linear relationship between any two features, except for X1 and X2.
 - Multicollinearity is not a primary concern, as stepwise selection methods will address this.
 
+![](<./CovX.JPG>)
+
 ## Part 2: How to Deal with Missing Data Imputation
 
-- A table displays the number of missing observations for each feature.
 - Missing data imputation is performed using the K-nearest neighbor (KNN) method with an expectation-maximization (EM) algorithm.
 - The imputation process involves using column means, grouping data into clusters using KNN, and iteratively updating cluster centers until stability is achieved or the maximum iteration limit is reached.
 
@@ -60,6 +64,8 @@ Welcome to a comprehensive exploration of Stock Return Prediction Research. In t
 
 - A moving window out-sample back-testing method is employed to evaluate model performance over various time periods.
 - This method allows for model adaptation to changing coefficients as time periods shift.
+
+![](<./Model_r_square.jpg>
 
 ## Conclusion
 
